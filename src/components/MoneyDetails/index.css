@@ -1,0 +1,36 @@
+.bankcards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ecfccb;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.logo {
+  height: 100px;
+  padding-right: 10px;
+}
+.expenses-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #cffafe;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.income-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ede9fe;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}

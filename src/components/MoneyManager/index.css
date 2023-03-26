@@ -1,0 +1,81 @@
+.money-manager-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+}
+.name-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  width: 700px;
+}
+.separateelement {
+  color: #0b69ff;
+}
+.add-transation-container {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+  padding-top: 10px;
+  border-style: solid;
+  border-color: #7e858e;
+  border-width: 1px;
+  padding: 20px;
+  min-width: 400px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-right: 3px;
+}
+.formEl {
+  display: flex;
+  flex-direction: column;
+}
+.input-title {
+  margin: 10px;
+  width: 300px;
+  height: 30px;
+}
+.list-options {
+  height: 30px;
+  width: 300px;
+  margin: 10px;
+}
+.button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-style: none;
+  padding: 10px;
+  width: 60px;
+  border-radius: 5px;
+}
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+}
+.transaction-history-container {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+  padding-top: 10px;
+  border-style: solid;
+  border-color: #7e858e;
+  border-width: 1px;
+  padding: 20px;
+  min-width: 400px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.trans-container {
+  display: flex;
+  justify-content: space-around;
+}
+.list-items {
+  list-style-type: none;
+}
